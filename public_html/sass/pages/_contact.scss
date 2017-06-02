@@ -1,0 +1,48 @@
+.contact-label{
+  font-family: $gothamBold;
+  font-size: em-calc(18);
+  color: $white;
+  margin-bottom: em-calc(13);
+}
+
+.contact-text{
+  height: em-calc(165);
+  resize: none;
+}
+
+.submit-form{
+  display: inline-block;
+  max-width: em-calc(120);
+  float: right;
+  padding: $c2a-padding;
+  background-color: $light-grey;
+  border: em-calc(3) solid $white;
+  text-align: center;
+  font-family: $whitneyBold;
+  font-size: em-calc(16);
+  color: $white;
+  //div hover state
+  &:hover{
+    color: $black;
+    background-color: $white;
+    border: em-calc(3) solid $black;
+  }
+}
+
+.inline-label{
+  max-width: em-calc(450);
+  display: inline-block;
+  line-height: em-calc(45);
+}
+
+.social-container{
+  a{
+    color: $white;
+    width: 100%;
+    height: 100%;
+  }
+  display: inline-block;
+  max-width: em-calc(50);
+  margin-top: em-calc(10);
+  margin-left: em-calc(10);
+}

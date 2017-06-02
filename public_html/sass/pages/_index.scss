@@ -1,0 +1,72 @@
+.index-image-container{
+  position: relative;
+  img{
+    max-width: 100%;
+  }
+  .call-to-action{
+    margin: auto;
+    position: absolute;
+    bottom: $spacing-small;
+    left: 0;
+    right: 0;
+  }
+}
+
+.tech-slideshow {
+  height: em-calc(300);
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: em-calc(300);
+  width: em-calc(4732);
+  background: url(../img/carousel-small.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 50s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+
+.skill-icon{
+  max-width: em-calc(90);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: $spacing-small;
+}
+
+.skill-container{
+  display: inline-block;
+  vertical-align: middle;
+  h5{
+    font-size: em-calc(22);
+    text-align: left;
+    margin-bottom: $spacing-small;
+    text-transform: capitalize;
+  }
+}
+
+.fa-star{
+  color: $white;
+}
+
+.fa-star-half-o{
+  color: $white;
+}
+
+.fa-star-o{
+  color: $white;
+}

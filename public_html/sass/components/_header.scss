@@ -1,0 +1,112 @@
+.navbar {
+	margin-top: em-calc(32);
+	margin-bottom: $spacing-large;
+	width: 100%;
+	height: em-calc(147);
+	background-color: $grey;
+}
+
+.centered-nav {
+	display: block;
+	max-width: em-calc(960);
+	margin: 0 auto;
+}
+
+.nav-logo-container {
+	display:inline-block;
+}
+
+.nav-logo {
+	margin-top: em-calc(-165);
+	width: 100%;
+}
+
+.nav-logo-link{
+	display: inline-block;
+	max-width: em-calc(423);
+}
+
+#menu {
+	display: inline-block;
+}
+
+#menu {
+	ul {
+	//position: absolute;
+	background-color: $grey;
+	/*Create a horizontal list with spacing*/
+	}
+	li {
+		display:inline-block;
+		float: left;
+		background-color: $grey;
+	}
+	a {
+		display:block;
+		min-width:em-calc(60);
+		max-width: em-calc(80);
+		padding: em-calc(5);
+		text-align: center;
+		line-height: em-calc(80);
+		font-family: $whitneyBold;
+		font-size: em-calc(26);
+		color: $white;
+		text-transform: capitalize;
+		text-decoration: none;
+		&:hover {
+			color: $light-red;
+			//insert underline
+			text-decoration: underline;
+		}
+	}
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: $whitneyBold;
+	text-decoration: none;
+	color: $white;
+	font-size: em-calc(26);
+	background-color: $grey;
+	text-align: center;
+	padding: em-calc(10) 0;
+	display: none;
+}
+
+/*Hide checkbox*/
+#show-menu{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+#show-menu:checked ~ #menu{
+    display: block;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+	.nav-logo-container{
+		display: block;
+	}
+	.nav-logo{
+		margin: 0;
+	}
+	/*Make dropdown links appear inline*/
+	.navbar ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	.navbar ul li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	.navbar ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+}

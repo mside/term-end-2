@@ -1,0 +1,41 @@
+.blog-title-tag{
+  max-width: em-calc(375);
+  background-color: $grey;
+  padding-top: em-calc(10);
+  padding-bottom: em-calc(10);
+  margin: 0 auto;
+  h1{
+    margin: 0;
+    font-family: $whitneyBold;
+    font-size: em-calc(32);
+    text-align: center;
+    color: $white;
+  }
+}
+
+.moving-background-container{
+  position: relative;
+  width: 100%;
+  height: em-calc(150);
+  background-image: url('../img/repeat-background.png');
+  background-repeat: repeat;
+  background-position: 0px 0px;
+//animate background
+  animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.blog-container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.centered-div-blog{
+  display: block;
+  max-width: em-calc(300);
+  margin: 0 auto;
+}
