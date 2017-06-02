@@ -1,0 +1,87 @@
+body {
+  background-color: $black;
+  color: $black;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+	padding:0;
+}
+
+.title-tag{
+  max-width: $title-tag-width;
+  background-color: $grey;
+  padding-top: em-calc(10);
+  padding-bottom: em-calc(10);
+  margin: 0 auto;
+  h1{
+    margin: 0;
+    font-family: $whitneyBold;
+    font-size: em-calc(32);
+    text-align: center;
+    color: $white;
+  }
+}
+
+.content-full-width{
+  width: 100%;
+  background-color: $grey;
+  margin-bottom: $spacing-large;
+  padding: $content-spacing;
+}
+
+.content-container{
+  padding: $content-spacing;
+}
+
+.call-to-action{
+  max-width: em-calc(105);
+  padding: $c2a-padding;
+  background-color: $light-grey;
+  border: em-calc(3) solid $white;
+  text-align: center;
+  a{
+    dispay: block;
+    font-family: $whitneyBold;
+    font-size: em-calc(16);
+    color: $white;
+    //text hover state
+    &:hover{
+      color: $black;
+    }
+  }
+  //div hover state
+  &:hover{
+    background-color: $white;
+    border: em-calc(3) solid $black;
+  }
+}
+
+.centered-div{
+  display: block;
+  max-width: em-calc(400);
+  margin: 0 auto;
+}
+
+td{
+  padding: $spacing-small;
+  line-height: 150;
+  min-width: em-calc(150);
+}
+
+.bottom-spacing{
+  margin-bottom: $spacing-large;
+}
+
+.top-spacing{
+  margin-top: $spacing-large;
+}
+
+.left-spacing{
+  margin-left: $spacing-large;
+}
+
+.top-spacing-small{
+  margin-top: $spacing-small;
+}

@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Whitney-BoldSC';
+	src: url('../fonts/Whitney-BoldSC.eot');
+	src: url('../fonts/Whitney-BoldSC.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-BoldSC.woff') format('woff'),
+		url('../fonts/Whitney-BoldSC.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Whitney-MediumSC';
+	src: url('../fonts/Whitney-MediumSC.eot');
+	src: url('../fonts/Whitney-MediumSC.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-MediumSC.woff') format('woff'),
+		url('../fonts/Whitney-MediumSC.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamBold';
+	src: url('../fonts/Gotham-Bold.eot');
+	src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Bold.woff') format('woff'),
+		url('../fonts/Gotham-Bold.ttf') format('truetype');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/Gotham-Light.eot');
+	src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Light.woff') format('woff'),
+		url('../fonts/Gotham-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

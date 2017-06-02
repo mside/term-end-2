@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Colour
+$light-red: #DC3522 !default;
+$dark-red: #A9291A !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+$grey: #333333 !default;
+$light-grey: #666666 !default;
+
+//Typography
+$whitneyBold: 'Whitney-BoldSC', 'Helvetica', sans-serif !default;
+$whitneyMedium: 'Whitney-MediumSC', 'Helvetica Neue', sans-serif,  !default;
+$gothamBold: 'GothamBold', 'Arial Bold', sans-serif !default;
+$gothamLight: 'GothamLight', 'Arial Light', sans-serif !default;
+
+//margins
+$spacing-small: em-calc(15);
+$spacing-medium: em-calc(30);
+$spacing-large: em-calc(60);
+
+//padding
+$content-spacing: em-calc(23);
+$c2a-padding: em-calc(10);
+
+//title tags
+$title-tag-width: em-calc(180);
+
+//border
+//$border: em-calc(15) solid #4A585E;
